@@ -18,6 +18,7 @@ public class Main {
         digestMap.put("one", 1);
         digestMap.put("два", 2);
         digestMap.put("три", 3);
+        String string = "";
 
         strings.forEach(str -> System.out.println(digestMap.get(str)));
 
